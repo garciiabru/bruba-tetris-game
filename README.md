@@ -12,7 +12,38 @@ A modern implementation of the classic Tetris game using HTML5 Canvas and JavaSc
 - Keyboard controls
 - Mobile touch support
 
-## 🚀 Technologies Used
+## 🌐 How to View and Run the Game
+
+### Option 1: Play Online
+You can play the game directly in your browser by visiting:
+https://garciiabru.github.io/bruba-tetris-game/
+
+### Option 2: Run Locally
+1. Clone this repository to your computer:
+```bash
+git clone https://github.com/garciiabru/bruba-tetris-game.git
+```
+
+2. Navigate to the project folder:
+```bash
+cd bruba-tetris-game
+```
+
+3. Open the `index.html` file in your web browser:
+   - Double-click the `index.html` file
+   - Or drag and drop it into your browser window
+   - Or use a local server (recommended):
+     ```bash
+     # If you have Python installed:
+     python -m http.server 8000
+     # Then open http://localhost:8000 in your browser
+     
+     # If you have Node.js installed:
+     npx serve
+     # Then open the URL shown in the terminal
+     ```
+
+## �� Technologies Used
 
 - HTML5
 - CSS3
@@ -30,15 +61,6 @@ A modern implementation of the classic Tetris game using HTML5 Canvas and JavaSc
 
 2. Clear lines to score points
 3. The game ends when pieces stack up to the top
-
-## 💻 Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/brunagarcia/tetris-game.git
-```
-
-2. Open `index.html` in your web browser
 
 ## 🎨 Customization
 
